@@ -1,5 +1,6 @@
 services:
   db:
+    container_name: jupgs
     image: postgres:18-alpine
     restart: unless-stopped 
     environment:
